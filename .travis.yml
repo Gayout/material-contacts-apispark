@@ -3,3 +3,9 @@ language: java
 
 #build software
 script: mvn test
+
+#deploy to Heroku
+deploy:
+  provider: heroku
+  api_key: add10d57-ea08-444c-9743-ecfa5ca95de0
+  on: master

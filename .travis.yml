@@ -8,4 +8,5 @@ script: mvn test
 deploy:
   provider: heroku
   api_key: add10d57-ea08-444c-9743-ecfa5ca95de0
+  app: mighty-thicket-4361 
   on: master
